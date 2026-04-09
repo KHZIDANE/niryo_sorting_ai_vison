@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <world name="sorting_world">
+
+    <!-- Physics -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Plugins -->
+    <plugin filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-contact-system"
+            name="gz::sim::systems::Contact"/>
+    <plugin filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- Lighting -->
+    <!-- Replace the existing <light> block with this -->
+    <light name="sun" type="directional">
+      <cast_shadows>false</cast_shadows>        <!-- no shadows on pick surface -->
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.95 0.95 0.95 1</diffuse>       <!-- brighter, more neutral -->
+      <specular>0.05 0.05 0.05 1</specular>     <!-- minimal specular → no glare -->
+      <direction>0 0 -1</direction>             <!-- straight down, no bias -->
+    </light>
+    <!-- Add a fill light for even illumination -->
+    <light name="fill_light" type="directional">
+      <cast_shadows>false</cast_shadows>
+      <pose>0 0 5 0 0 0</pose>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.0 0.0 0.0 1</specular>
+      <direction>0.3 0.3 -0.7</direction>
+    </light>
+   
+
+
+    <!-- Ground plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>10 10</size></plane></geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Worktable -->
+    <model name="table">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <pose>0 0 0.375 0 0 0</pose>
+          <geometry>
+            <box><size>1.2 0.8 0.05</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <pose>0 0 0.375 0 0 0</pose>
+          <geometry>
+            <box><size>1.2 0.8 0.05</size></box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.4 0.2 1</ambient>
+            <diffuse>0.6 0.4 0.2 1</diffuse>
+          </material>
+        </visual>
+        <!-- Table legs -->
+        <collision name="leg1"><pose>0.55 0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry></collision>
+        <visual name="leg1"><pose>0.55 0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry>
+          <material><ambient>0.4 0.2 0.1 1</ambient></material></visual>
+        <collision name="leg2"><pose>-0.55 0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry></collision>
+        <visual name="leg2"><pose>-0.55 0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry>
+          <material><ambient>0.4 0.2 0.1 1</ambient></material></visual>
+        <collision name="leg3"><pose>0.55 -0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry></collision>
+        <visual name="leg3"><pose>0.55 -0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry>
+          <material><ambient>0.4 0.2 0.1 1</ambient></material></visual>
+        <collision name="leg4"><pose>-0.55 -0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry></collision>
+        <visual name="leg4"><pose>-0.55 -0.35 0.175 0 0 0</pose>
+          <geometry><box><size>0.05 0.05 0.35</size></box></geometry>
+          <material><ambient>0.4 0.2 0.1 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- Good bottles bin (green) -->
+    <model name="bin_good">
+      <static>true</static>
+      <pose>0.25 -0.25 0.4 0 0 0</pose>
+      <link name="link">
+        <visual name="back"><pose>0 -0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry>
+          <material><ambient>0.0 0.8 0.0 1</ambient><diffuse>0.0 0.8 0.0 1</diffuse></material></visual>
+        <collision name="back"><pose>0 -0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry></collision>
+        <visual name="front"><pose>0 0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry>
+          <material><ambient>0.0 0.8 0.0 1</ambient><diffuse>0.0 0.8 0.0 1</diffuse></material></visual>
+        <collision name="front"><pose>0 0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry></collision>
+        <visual name="left"><pose>-0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry>
+          <material><ambient>0.0 0.8 0.0 1</ambient><diffuse>0.0 0.8 0.0 1</diffuse></material></visual>
+        <collision name="left"><pose>-0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry></collision>
+        <visual name="right"><pose>0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry>
+          <material><ambient>0.0 0.8 0.0 1</ambient><diffuse>0.0 0.8 0.0 1</diffuse></material></visual>
+        <collision name="right"><pose>0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry></collision>
+        <visual name="bottom"><pose>0 0 0 0 0 0</pose>
+          <geometry><box><size>0.25 0.2 0.01</size></box></geometry>
+          <material><ambient>0.0 0.8 0.0 1</ambient><diffuse>0.0 0.8 0.0 1</diffuse></material></visual>
+        <collision name="bottom"><pose>0 0 0 0 0 0</pose>
+          <geometry><box><size>0.25 0.2 0.01</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <!-- Defective bottles bin (red) -->
+    <model name="bin_defective">
+      <static>true</static>
+      <pose>0.25 0.25 0.4 0 0 0</pose>
+      <link name="link">
+        <visual name="back"><pose>0 -0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry>
+          <material><ambient>0.8 0.0 0.0 1</ambient><diffuse>0.8 0.0 0.0 1</diffuse></material></visual>
+        <collision name="back"><pose>0 -0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry></collision>
+        <visual name="front"><pose>0 0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry>
+          <material><ambient>0.8 0.0 0.0 1</ambient><diffuse>0.8 0.0 0.0 1</diffuse></material></visual>
+        <collision name="front"><pose>0 0.1 0.075 0 0 0</pose>
+          <geometry><box><size>0.25 0.01 0.15</size></box></geometry></collision>
+        <visual name="left"><pose>-0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry>
+          <material><ambient>0.8 0.0 0.0 1</ambient><diffuse>0.8 0.0 0.0 1</diffuse></material></visual>
+        <collision name="left"><pose>-0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry></collision>
+        <visual name="right"><pose>0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry>
+          <material><ambient>0.8 0.0 0.0 1</ambient><diffuse>0.8 0.0 0.0 1</diffuse></material></visual>
+        <collision name="right"><pose>0.12 0 0.075 0 0 0</pose>
+          <geometry><box><size>0.01 0.2 0.15</size></box></geometry></collision>
+        <visual name="bottom"><pose>0 0 0 0 0 0</pose>
+          <geometry><box><size>0.25 0.2 0.01</size></box></geometry>
+          <material><ambient>0.8 0.0 0.0 1</ambient><diffuse>0.8 0.0 0.0 1</diffuse></material></visual>
+        <collision name="bottom"><pose>0 0 0 0 0 0</pose>
+          <geometry><box><size>0.25 0.2 0.01</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <!-- Inspection area marker on table -->
+    <model name="inspection_marker">
+      <static>true</static>
+      <pose>0.15 0 0.402 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.12 0.12 0.002</size></box></geometry>
+          <material><ambient>1.0 1.0 0.0 1</ambient><diffuse>1.0 1.0 0.0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Overhead camera -->
+    <model name="overhead_camera">
+      <static>true</static>
+      <pose>0.15 0 0.85 0 1.5708 0</pose>
+      <link name="camera_link">
+        <visual name="visual">
+          <geometry><box><size>0.05 0.05 0.05</size></box></geometry>
+          <material><ambient>0.1 0.1 0.1 1</ambient></material>
+        </visual>
+        <sensor name="camera" type="camera">
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>10</far>
+            </clip>
+          </camera>
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <topic>/camera/image_raw</topic>
+        </sensor>
+      </link>
+    </model>
+
+    <!-- Good bottle on inspection area -->
+    <model name="bottle_1">
+      <pose>0.15 0 0.45 0 0 0</pose>
+      <link name="bottle_link">
+        <inertial>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+            <iyy>0.0001</iyy><iyz>0</iyz>
+            <izz>0.00005</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry><cylinder><radius>0.02</radius><length>0.1</length></cylinder></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><cylinder><radius>0.02</radius><length>0.1</length></cylinder></geometry>
+          <material><ambient>0.0 0.5 1.0 1</ambient><diffuse>0.0 0.5 1.0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

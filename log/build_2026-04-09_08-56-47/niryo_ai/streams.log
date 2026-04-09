@@ -1,0 +1,32 @@
+[2.150s] Invoking command in '/home/zidane/niryo_iws/src/niryo_ai': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_ai build --build-base /home/zidane/niryo_iws/build/niryo_ai/build install --record /home/zidane/niryo_iws/build/niryo_ai/install.log --single-version-externally-managed install_data
+[2.477s] running egg_info
+[2.477s] creating ../../build/niryo_ai/niryo_ai.egg-info
+[2.498s] writing ../../build/niryo_ai/niryo_ai.egg-info/PKG-INFO
+[2.499s] writing dependency_links to ../../build/niryo_ai/niryo_ai.egg-info/dependency_links.txt
+[2.499s] writing requirements to ../../build/niryo_ai/niryo_ai.egg-info/requires.txt
+[2.499s] writing top-level names to ../../build/niryo_ai/niryo_ai.egg-info/top_level.txt
+[2.499s] writing manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+[2.547s] reading manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+[2.548s] writing manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+[2.548s] running build
+[2.549s] running build_py
+[2.549s] creating /home/zidane/niryo_iws/build/niryo_ai/build
+[2.549s] creating /home/zidane/niryo_iws/build/niryo_ai/build/lib
+[2.549s] creating /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai
+[2.550s] copying niryo_ai/__init__.py -> /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai
+[2.551s] running install
+[2.558s] running install_lib
+[2.580s] creating /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai
+[2.580s] copying /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai/__init__.py -> /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai
+[2.581s] byte-compiling /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai/__init__.py to __init__.cpython-312.pyc
+[2.581s] running install_data
+[2.581s] creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index
+[2.582s] creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index
+[2.584s] creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index/packages
+[2.584s] copying resource/niryo_ai -> /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index/packages
+[2.584s] copying package.xml -> /home/zidane/niryo_iws/install/niryo_ai/share/niryo_ai
+[2.584s] running install_egg_info
+[2.608s] Copying ../../build/niryo_ai/niryo_ai.egg-info to /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai-0.0.0-py3.12.egg-info
+[2.608s] running install_scripts
+[2.763s] writing list of installed files to '/home/zidane/niryo_iws/build/niryo_ai/install.log'
+[2.816s] Invoked command in '/home/zidane/niryo_iws/src/niryo_ai' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_ai build --build-base /home/zidane/niryo_iws/build/niryo_ai/build install --record /home/zidane/niryo_iws/build/niryo_ai/install.log --single-version-externally-managed install_data

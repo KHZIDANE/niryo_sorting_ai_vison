@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/niryo_tools/niryo_tools.egg-info
+writing ../../build/niryo_tools/niryo_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/niryo_tools/niryo_tools.egg-info/dependency_links.txt
+writing requirements to ../../build/niryo_tools/niryo_tools.egg-info/requires.txt
+writing top-level names to ../../build/niryo_tools/niryo_tools.egg-info/top_level.txt
+writing manifest file '../../build/niryo_tools/niryo_tools.egg-info/SOURCES.txt'
+reading manifest file '../../build/niryo_tools/niryo_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/niryo_tools/niryo_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zidane/niryo_iws/build/niryo_tools/build
+creating /home/zidane/niryo_iws/build/niryo_tools/build/lib
+creating /home/zidane/niryo_iws/build/niryo_tools/build/lib/niryo_tools
+copying niryo_tools/__init__.py -> /home/zidane/niryo_iws/build/niryo_tools/build/lib/niryo_tools
+running install
+running install_lib
+creating /home/zidane/niryo_iws/install/niryo_tools/lib/python3.12/site-packages/niryo_tools
+copying /home/zidane/niryo_iws/build/niryo_tools/build/lib/niryo_tools/__init__.py -> /home/zidane/niryo_iws/install/niryo_tools/lib/python3.12/site-packages/niryo_tools
+byte-compiling /home/zidane/niryo_iws/install/niryo_tools/lib/python3.12/site-packages/niryo_tools/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/zidane/niryo_iws/install/niryo_tools/share/ament_index
+creating /home/zidane/niryo_iws/install/niryo_tools/share/ament_index/resource_index
+creating /home/zidane/niryo_iws/install/niryo_tools/share/ament_index/resource_index/packages
+copying resource/niryo_tools -> /home/zidane/niryo_iws/install/niryo_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/zidane/niryo_iws/install/niryo_tools/share/niryo_tools
+running install_egg_info
+Copying ../../build/niryo_tools/niryo_tools.egg-info to /home/zidane/niryo_iws/install/niryo_tools/lib/python3.12/site-packages/niryo_tools-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/zidane/niryo_iws/build/niryo_tools/install.log'

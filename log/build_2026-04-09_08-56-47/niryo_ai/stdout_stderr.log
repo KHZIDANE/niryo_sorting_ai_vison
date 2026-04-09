@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/niryo_ai/niryo_ai.egg-info
+writing ../../build/niryo_ai/niryo_ai.egg-info/PKG-INFO
+writing dependency_links to ../../build/niryo_ai/niryo_ai.egg-info/dependency_links.txt
+writing requirements to ../../build/niryo_ai/niryo_ai.egg-info/requires.txt
+writing top-level names to ../../build/niryo_ai/niryo_ai.egg-info/top_level.txt
+writing manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+reading manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+writing manifest file '../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zidane/niryo_iws/build/niryo_ai/build
+creating /home/zidane/niryo_iws/build/niryo_ai/build/lib
+creating /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai
+copying niryo_ai/__init__.py -> /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai
+running install
+running install_lib
+creating /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai
+copying /home/zidane/niryo_iws/build/niryo_ai/build/lib/niryo_ai/__init__.py -> /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai
+byte-compiling /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index
+creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index
+creating /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index/packages
+copying resource/niryo_ai -> /home/zidane/niryo_iws/install/niryo_ai/share/ament_index/resource_index/packages
+copying package.xml -> /home/zidane/niryo_iws/install/niryo_ai/share/niryo_ai
+running install_egg_info
+Copying ../../build/niryo_ai/niryo_ai.egg-info to /home/zidane/niryo_iws/install/niryo_ai/lib/python3.12/site-packages/niryo_ai-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/zidane/niryo_iws/build/niryo_ai/install.log'

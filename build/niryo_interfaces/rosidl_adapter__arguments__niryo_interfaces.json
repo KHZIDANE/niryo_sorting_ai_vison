@@ -1,0 +1,6 @@
+{
+  "package_name": "niryo_interfaces",
+  "non_idl_tuples": [
+    "/home/zidane/niryo_iws/src/niryo_interfaces:msg/Detection.msg"
+  ]
+}

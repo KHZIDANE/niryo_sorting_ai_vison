@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/niryo_ai/niryo_ai.egg-info/PKG-INFO
+../../build/niryo_ai/niryo_ai.egg-info/SOURCES.txt
+../../build/niryo_ai/niryo_ai.egg-info/dependency_links.txt
+../../build/niryo_ai/niryo_ai.egg-info/requires.txt
+../../build/niryo_ai/niryo_ai.egg-info/top_level.txt
+../../build/niryo_ai/niryo_ai.egg-info/zip-safe
+niryo_ai/__init__.py
+resource/niryo_ai
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

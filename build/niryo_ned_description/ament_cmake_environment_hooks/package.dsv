@@ -1,0 +1,4 @@
+source;share/niryo_ned_description/local_setup.bash
+source;share/niryo_ned_description/local_setup.dsv
+source;share/niryo_ned_description/local_setup.sh
+source;share/niryo_ned_description/local_setup.zsh

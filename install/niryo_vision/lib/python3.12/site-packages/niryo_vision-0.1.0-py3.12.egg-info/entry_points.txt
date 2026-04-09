@@ -1,0 +1,2 @@
+[console_scripts]
+vision_node = niryo_vision.vision_node:main

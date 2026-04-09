@@ -1,0 +1,12 @@
+<robot name="niryo_ned2" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Gazebo + ros2_control -->
+  <gazebo>
+    <plugin name="gz_ros2_control" filename="libgz_ros2_control-system.so"/>
+  </gazebo>
+
+  <!-- Import Robot -->
+<xacro:include filename="$(find niryo_ned_description)/urdf/ned2/niryo_ned2.urdf.xacro"/>
+<xacro:include filename="$(find niryo_ned_description)/urdf/ned2/niryo_ned2.transmission.xacro"/>
+
+</robot>

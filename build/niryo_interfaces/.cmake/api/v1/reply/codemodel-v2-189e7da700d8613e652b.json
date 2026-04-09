@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-35fb675b1ce7a20ab61b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "niryo_interfaces__py",
+					"jsonFile" : "directory-niryo_interfaces__py-22a26c73cb5ae18851f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zidane/niryo_iws/build/niryo_interfaces/niryo_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "niryo_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_niryo_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_niryo_interfaces_egg-d7608d710dbcb5603208.json",
+					"name" : "ament_cmake_python_build_niryo_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_niryo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_niryo_interfaces-638b5c6c2f5cf7b3e98d.json",
+					"name" : "ament_cmake_python_copy_niryo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces-074da108927ea89c1081.json",
+					"name" : "niryo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__cpp-fdc0f464413a02a69159.json",
+					"name" : "niryo_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "niryo_interfaces__py::@59e99d1459a13896482d",
+					"jsonFile" : "target-niryo_interfaces__py-ea44317996d244d95188.json",
+					"name" : "niryo_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_generator_c-bc5dc679a0323c0ef5cb.json",
+					"name" : "niryo_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_generator_py-f6163df5164d8a77ffad.json",
+					"name" : "niryo_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_generator_type_description-c5c2b1d7b0e6432828aa.json",
+					"name" : "niryo_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_c-7a0acff009d372f5a8ae.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_cpp-75843ce2465504b56b99.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_fastrtps_c-5c8667362078dc9054ee.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_fastrtps_cpp-ed9ffc1a55022dad63a3.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_introspection_c-091944c727841cc5904a.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces__rosidl_typesupport_introspection_cpp-1b8b59f152a223ab9c90.json",
+					"name" : "niryo_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces_s__rosidl_typesupport_c-bf81d57095cc2c1a198a.json",
+					"name" : "niryo_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces_s__rosidl_typesupport_fastrtps_c-9bbd11235001d59096aa.json",
+					"name" : "niryo_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces_s__rosidl_typesupport_introspection_c-a760fecb798327fda805.json",
+					"name" : "niryo_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "niryo_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-niryo_interfaces_uninstall-f84bad7bdc7b30e57914.json",
+					"name" : "niryo_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82c13199fdfe7b137cb1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zidane/niryo_iws/build/niryo_interfaces",
+		"source" : "/home/zidane/niryo_iws/src/niryo_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

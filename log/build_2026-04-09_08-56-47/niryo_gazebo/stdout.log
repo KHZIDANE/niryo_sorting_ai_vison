@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zidane/niryo_iws/build/niryo_gazebo
+-- Install configuration: ""
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/launch
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/launch/gazebo.launch.py
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/worlds
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/worlds/sorting_world.sdf
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/models
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/models/bottle_defective
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/models/bottle_defective/model.sdf
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/models/bottle_good
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/models/bottle_good/model.sdf
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/config
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/config/controllers.yaml
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/urdf
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/urdf/niryo_ned2_gz.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/ament_index/resource_index/package_run_dependencies/niryo_gazebo
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/ament_index/resource_index/parent_prefix_path/niryo_gazebo
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/environment/path.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/environment/path.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/local_setup.bash
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/local_setup.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/local_setup.zsh
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/local_setup.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/package.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/ament_index/resource_index/packages/niryo_gazebo
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/cmake/niryo_gazeboConfig.cmake
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/cmake/niryo_gazeboConfig-version.cmake
+-- Installing: /home/zidane/niryo_iws/install/niryo_gazebo/share/niryo_gazebo/package.xml

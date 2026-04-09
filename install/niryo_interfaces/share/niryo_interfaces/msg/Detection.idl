@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from niryo_interfaces/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+
+module niryo_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Detected object from vision node")
+    struct Detection {
+      @verbatim (language="comment", text=
+        "world-frame X (metres)")
+      double x;
+
+      @verbatim (language="comment", text=
+        "world-frame Y (metres)")
+      double y;
+
+      @verbatim (language="comment", text=
+        "world-frame Z (metres, table surface)")
+      double z;
+
+      @verbatim (language="comment", text=
+        "\"blue\" | \"orange\"")
+      string color;
+
+      @verbatim (language="comment", text=
+        "\"good\" | \"defective\"")
+      string label;
+
+      @verbatim (language="comment", text=
+        "0.0–1.0")
+      double confidence;
+    };
+  };
+};

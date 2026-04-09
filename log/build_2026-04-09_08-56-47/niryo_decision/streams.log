@@ -1,0 +1,37 @@
+[2.150s] Invoking command in '/home/zidane/niryo_iws/src/niryo_decision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_decision build --build-base /home/zidane/niryo_iws/build/niryo_decision/build install --record /home/zidane/niryo_iws/build/niryo_decision/install.log --single-version-externally-managed install_data
+[2.495s] running egg_info
+[2.495s] creating ../../build/niryo_decision/niryo_decision.egg-info
+[2.518s] writing ../../build/niryo_decision/niryo_decision.egg-info/PKG-INFO
+[2.519s] writing dependency_links to ../../build/niryo_decision/niryo_decision.egg-info/dependency_links.txt
+[2.519s] writing entry points to ../../build/niryo_decision/niryo_decision.egg-info/entry_points.txt
+[2.519s] writing requirements to ../../build/niryo_decision/niryo_decision.egg-info/requires.txt
+[2.520s] writing top-level names to ../../build/niryo_decision/niryo_decision.egg-info/top_level.txt
+[2.520s] writing manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+[2.565s] reading manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+[2.566s] writing manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+[2.566s] running build
+[2.566s] running build_py
+[2.566s] creating /home/zidane/niryo_iws/build/niryo_decision/build
+[2.567s] creating /home/zidane/niryo_iws/build/niryo_decision/build/lib
+[2.567s] creating /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+[2.567s] copying niryo_decision/__init__.py -> /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+[2.567s] copying niryo_decision/decision_node.py -> /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+[2.567s] running install
+[2.579s] running install_lib
+[2.599s] creating /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+[2.600s] copying /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision/__init__.py -> /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+[2.600s] copying /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision/decision_node.py -> /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+[2.601s] byte-compiling /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision/__init__.py to __init__.cpython-312.pyc
+[2.601s] byte-compiling /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision/decision_node.py to decision_node.cpython-312.pyc
+[2.604s] running install_data
+[2.604s] creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index
+[2.605s] creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index
+[2.605s] creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index/packages
+[2.605s] copying resource/niryo_decision -> /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index/packages
+[2.605s] copying package.xml -> /home/zidane/niryo_iws/install/niryo_decision/share/niryo_decision
+[2.606s] running install_egg_info
+[2.630s] Copying ../../build/niryo_decision/niryo_decision.egg-info to /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision-0.1.0-py3.12.egg-info
+[2.631s] running install_scripts
+[2.787s] Installing decision_node script to /home/zidane/niryo_iws/install/niryo_decision/lib/niryo_decision
+[2.788s] writing list of installed files to '/home/zidane/niryo_iws/build/niryo_decision/install.log'
+[2.826s] Invoked command in '/home/zidane/niryo_iws/src/niryo_decision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_decision build --build-base /home/zidane/niryo_iws/build/niryo_decision/build install --record /home/zidane/niryo_iws/build/niryo_decision/install.log --single-version-externally-managed install_data

@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zidane/niryo_iws/build/niryo_ned_description
+-- Install configuration: ""
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/led_ring
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/led_ring/led.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/shoulder_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/forearm_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/elbow_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/arm_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/wrist_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/hand_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/collada/base_link.dae
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/forearm_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/hand_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/shoulder_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/elbow_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/base_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/wrist_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/ned2/stl/arm_link.stl
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/gripper_1
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/gripper_1/base_gripper_1.STL
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/gripper_1/mors_2.STL
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/meshes/gripper_1/mors_1.STL
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2_camera.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2_param.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2.transmission.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2_gripper1_n_camera.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/without_mesh_niryo_ned2.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/ned2/niryo_ned2_gazebo.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/tools
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/urdf/tools/niryo_gripper1.urdf.xacro
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/rviz
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/rviz/default.rviz
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/launch
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/launch/view_robot.launch.py
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/ament_index/resource_index/package_run_dependencies/niryo_ned_description
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/ament_index/resource_index/parent_prefix_path/niryo_ned_description
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/environment/ament_prefix_path.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/environment/ament_prefix_path.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/environment/path.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/environment/path.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/local_setup.bash
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/local_setup.sh
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/local_setup.zsh
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/local_setup.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/package.dsv
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/ament_index/resource_index/packages/niryo_ned_description
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/cmake/niryo_ned_descriptionConfig.cmake
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/cmake/niryo_ned_descriptionConfig-version.cmake
+-- Installing: /home/zidane/niryo_iws/install/niryo_ned_description/share/niryo_ned_description/package.xml

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "niryo_interfaces__py",
+		"source" : "/home/zidane/niryo_iws/build/niryo_interfaces/niryo_interfaces__py"
+	}
+}

@@ -1,0 +1,8 @@
+setup.py
+niryo_interfaces/__init__.py
+niryo_interfaces.egg-info/PKG-INFO
+niryo_interfaces.egg-info/SOURCES.txt
+niryo_interfaces.egg-info/dependency_links.txt
+niryo_interfaces.egg-info/top_level.txt
+niryo_interfaces/msg/__init__.py
+niryo_interfaces/msg/_detection.py

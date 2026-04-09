@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <model name="bottle_defective">
+    <static>false</static>
+    <link name="bottle_link">
+      <inertial>
+        <mass>0.05</mass>
+        <inertia>
+          <ixx>0.0001</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>0.0001</iyy><iyz>0</iyz>
+          <izz>0.00005</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Main cylinder body (slightly shorter = bent look) -->
+      <collision name="col_body">
+        <geometry><cylinder><radius>0.02</radius><length>0.09</length></cylinder></geometry>
+      </collision>
+      <visual name="vis_body">
+        <geometry><cylinder><radius>0.02</radius><length>0.09</length></cylinder></geometry>
+        <material><ambient>1.0 0.2 0.0 1</ambient><diffuse>1.0 0.2 0.0 1</diffuse></material>
+      </visual>
+
+      <!-- Dent: a dark flattened box sticking out on one side -->
+      <collision name="col_dent">
+        <pose>0.018 0 0.01 0 0 0</pose>
+        <geometry><box><size>0.01 0.025 0.03</size></box></geometry>
+      </collision>
+      <visual name="vis_dent">
+        <pose>0.018 0 0.01 0 0 0</pose>
+        <geometry><box><size>0.01 0.025 0.03</size></box></geometry>
+        <material><ambient>0.6 0.1 0.0 1</ambient><diffuse>0.6 0.1 0.0 1</diffuse></material>
+      </visual>
+
+      <!-- Second dent (asymmetric — makes it obviously irregular) -->
+      <collision name="col_dent2">
+        <pose>-0.015 0.012 -0.015 0 0 0</pose>
+        <geometry><box><size>0.012 0.012 0.02</size></box></geometry>
+      </collision>
+      <visual name="vis_dent2">
+        <pose>-0.015 0.012 -0.015 0 0 0</pose>
+        <geometry><box><size>0.012 0.012 0.02</size></box></geometry>
+        <material><ambient>0.5 0.08 0.0 1</ambient><diffuse>0.5 0.08 0.0 1</diffuse></material>
+      </visual>
+    </link>
+  </model>
+</sdf>

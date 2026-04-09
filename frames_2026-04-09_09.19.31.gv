@@ -1,0 +1,19 @@
+digraph G {
+"base_link" -> "shoulder_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"shoulder_link" -> "arm_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"arm_link" -> "elbow_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"elbow_link" -> "forearm_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"forearm_link" -> "wrist_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"wrist_link" -> "hand_link"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"base_gripper_1" -> "mors_1"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"tool_link" -> "base_gripper_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_gripper_1" -> "mors_2"[label=" Broadcaster: default_authority\nAverage rate: 18.707\nBuffer length: 2.94\nMost recent transform: 245.118\nOldest transform: 242.178\n"];
+"wrist_link" -> "camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"hand_link" -> "tool_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "led_ring_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1775722771.0839105"[ shape=plaintext ] ;
+}->"world";
+}

@@ -1,0 +1,21 @@
+[2.070s] Invoking command in '/home/zidane/niryo_iws/src/niryo_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_vision build --build-base /home/zidane/niryo_iws/build/niryo_vision/build install --record /home/zidane/niryo_iws/build/niryo_vision/install.log --single-version-externally-managed install_data
+[2.373s] running egg_info
+[2.397s] writing ../../build/niryo_vision/niryo_vision.egg-info/PKG-INFO
+[2.397s] writing dependency_links to ../../build/niryo_vision/niryo_vision.egg-info/dependency_links.txt
+[2.397s] writing entry points to ../../build/niryo_vision/niryo_vision.egg-info/entry_points.txt
+[2.398s] writing requirements to ../../build/niryo_vision/niryo_vision.egg-info/requires.txt
+[2.398s] writing top-level names to ../../build/niryo_vision/niryo_vision.egg-info/top_level.txt
+[2.441s] reading manifest file '../../build/niryo_vision/niryo_vision.egg-info/SOURCES.txt'
+[2.443s] writing manifest file '../../build/niryo_vision/niryo_vision.egg-info/SOURCES.txt'
+[2.443s] running build
+[2.443s] running build_py
+[2.443s] running install
+[2.451s] running install_lib
+[2.472s] running install_data
+[2.473s] running install_egg_info
+[2.497s] removing '/home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision-0.1.0-py3.12.egg-info' (and everything under it)
+[2.498s] Copying ../../build/niryo_vision/niryo_vision.egg-info to /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision-0.1.0-py3.12.egg-info
+[2.499s] running install_scripts
+[2.649s] Installing vision_node script to /home/zidane/niryo_iws/install/niryo_vision/lib/niryo_vision
+[2.649s] writing list of installed files to '/home/zidane/niryo_iws/build/niryo_vision/install.log'
+[2.694s] Invoked command in '/home/zidane/niryo_iws/src/niryo_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zidane/niryo_iws/build/niryo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niryo_vision build --build-base /home/zidane/niryo_iws/build/niryo_vision/build install --record /home/zidane/niryo_iws/build/niryo_vision/install.log --single-version-externally-managed install_data

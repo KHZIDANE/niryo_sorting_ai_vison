@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/niryo_decision/niryo_decision.egg-info
+writing ../../build/niryo_decision/niryo_decision.egg-info/PKG-INFO
+writing dependency_links to ../../build/niryo_decision/niryo_decision.egg-info/dependency_links.txt
+writing entry points to ../../build/niryo_decision/niryo_decision.egg-info/entry_points.txt
+writing requirements to ../../build/niryo_decision/niryo_decision.egg-info/requires.txt
+writing top-level names to ../../build/niryo_decision/niryo_decision.egg-info/top_level.txt
+writing manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+reading manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+writing manifest file '../../build/niryo_decision/niryo_decision.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zidane/niryo_iws/build/niryo_decision/build
+creating /home/zidane/niryo_iws/build/niryo_decision/build/lib
+creating /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+copying niryo_decision/__init__.py -> /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+copying niryo_decision/decision_node.py -> /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision
+running install
+running install_lib
+creating /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+copying /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision/__init__.py -> /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+copying /home/zidane/niryo_iws/build/niryo_decision/build/lib/niryo_decision/decision_node.py -> /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision
+byte-compiling /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision/decision_node.py to decision_node.cpython-312.pyc
+running install_data
+creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index
+creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index
+creating /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index/packages
+copying resource/niryo_decision -> /home/zidane/niryo_iws/install/niryo_decision/share/ament_index/resource_index/packages
+copying package.xml -> /home/zidane/niryo_iws/install/niryo_decision/share/niryo_decision
+running install_egg_info
+Copying ../../build/niryo_decision/niryo_decision.egg-info to /home/zidane/niryo_iws/install/niryo_decision/lib/python3.12/site-packages/niryo_decision-0.1.0-py3.12.egg-info
+running install_scripts
+Installing decision_node script to /home/zidane/niryo_iws/install/niryo_decision/lib/niryo_decision
+writing list of installed files to '/home/zidane/niryo_iws/build/niryo_decision/install.log'

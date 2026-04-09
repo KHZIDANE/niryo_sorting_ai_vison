@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/niryo_vision/niryo_vision.egg-info
+writing ../../build/niryo_vision/niryo_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/niryo_vision/niryo_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/niryo_vision/niryo_vision.egg-info/entry_points.txt
+writing requirements to ../../build/niryo_vision/niryo_vision.egg-info/requires.txt
+writing top-level names to ../../build/niryo_vision/niryo_vision.egg-info/top_level.txt
+writing manifest file '../../build/niryo_vision/niryo_vision.egg-info/SOURCES.txt'
+reading manifest file '../../build/niryo_vision/niryo_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/niryo_vision/niryo_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zidane/niryo_iws/build/niryo_vision/build
+creating /home/zidane/niryo_iws/build/niryo_vision/build/lib
+creating /home/zidane/niryo_iws/build/niryo_vision/build/lib/niryo_vision
+copying niryo_vision/__init__.py -> /home/zidane/niryo_iws/build/niryo_vision/build/lib/niryo_vision
+copying niryo_vision/vision_node.py -> /home/zidane/niryo_iws/build/niryo_vision/build/lib/niryo_vision
+running install
+running install_lib
+creating /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision
+copying /home/zidane/niryo_iws/build/niryo_vision/build/lib/niryo_vision/__init__.py -> /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision
+copying /home/zidane/niryo_iws/build/niryo_vision/build/lib/niryo_vision/vision_node.py -> /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision
+byte-compiling /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision/vision_node.py to vision_node.cpython-312.pyc
+running install_data
+creating /home/zidane/niryo_iws/install/niryo_vision/share/ament_index
+creating /home/zidane/niryo_iws/install/niryo_vision/share/ament_index/resource_index
+creating /home/zidane/niryo_iws/install/niryo_vision/share/ament_index/resource_index/packages
+copying resource/niryo_vision -> /home/zidane/niryo_iws/install/niryo_vision/share/ament_index/resource_index/packages
+copying package.xml -> /home/zidane/niryo_iws/install/niryo_vision/share/niryo_vision
+running install_egg_info
+Copying ../../build/niryo_vision/niryo_vision.egg-info to /home/zidane/niryo_iws/install/niryo_vision/lib/python3.12/site-packages/niryo_vision-0.1.0-py3.12.egg-info
+running install_scripts
+Installing vision_node script to /home/zidane/niryo_iws/install/niryo_vision/lib/niryo_vision
+writing list of installed files to '/home/zidane/niryo_iws/build/niryo_vision/install.log'

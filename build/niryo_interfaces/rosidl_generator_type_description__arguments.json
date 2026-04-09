@@ -1,0 +1,12 @@
+{
+  "package_name": "niryo_interfaces",
+  "output_dir": "/home/zidane/niryo_iws/build/niryo_interfaces/rosidl_generator_type_description/niryo_interfaces",
+  "idl_tuples": [
+    "/home/zidane/niryo_iws/build/niryo_interfaces/rosidl_adapter/niryo_interfaces:msg/Detection.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

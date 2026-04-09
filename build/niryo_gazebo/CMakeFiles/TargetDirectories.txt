@@ -1,0 +1,9 @@
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/uninstall.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/niryo_gazebo_uninstall.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/test.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/edit_cache.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/rebuild_cache.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/list_install_components.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/install.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/install/local.dir
+/home/zidane/niryo_iws/build/niryo_gazebo/CMakeFiles/install/strip.dir
